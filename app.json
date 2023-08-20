@@ -23,6 +23,11 @@
             "description": "Your bot token.",
             "required": true
         },
+        "UPSTREAM_REPO": {
+            "description":"repo",
+            "required": true,
+            "value":"https://github.com/LieStage/Filter"
+        },
         "API_ID": {
             "description": "Get this value from https://my.telegram.org",
             "required": true
