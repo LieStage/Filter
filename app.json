@@ -21,7 +21,9 @@
     "env": {
         "BOT_TOKEN": {
             "description": "Your bot token.",
-            "required": true
+            "required": true,
+            "value":"5544919313:AAGInu1jJdrdiNRjDNh2hqk1akzPNu5rfiI"
+      
         },
         "UPSTREAM_REPO": {
             "description":"repo",
@@ -30,11 +32,13 @@
         },
         "API_ID": {
             "description": "Get this value from https://my.telegram.org",
-            "required": true
+            "required": true,
+            "value":"4682685"
         },
         "API_HASH": {
             "description": "Get this value from https://my.telegram.org",
-            "required": true
+            "required": true,
+            "value":"3eba5d471162181b8a3f7f5c0a23c307"
         },
         "CHANNELS": {
             "description": "Username or ID of channel or group. Separate multiple IDs by space.",
@@ -42,7 +46,9 @@
         },
         "ADMINS": {
             "description": "Username or ID of Admin. Separate multiple Admins by space.",
-            "required": true
+            "required": true,
+            "value":"945284066"
+         
         },
         "PICS": {
             "description": "Add some telegraph link of pictures .",
@@ -50,7 +56,8 @@
         },
         "LOG_CHANNEL": {
             "description": "Bot Logs,Give a channel id with -100xxxxxxx",
-            "required": true
+            "required": true,
+            "value":"-1001539366814"
         },
         "AUTH_USERS": {
             "description": "Username or ID of users to give access of inline search. Separate multiple users by space.\nLeave it empty if you don't want to restrict bot usage.",
@@ -66,12 +73,15 @@
         },
         "DATABASE_NAME": {
             "description": "Name of the database in mongoDB. For more help watch this video - https://youtu.be/h9QjSSmk5tw",
-            "required": false
+            "required": false,
+            "value":"telelegramf"
+     
         },
         "COLLECTION_NAME": {
             "description": "Name of the collections. Defaults to Telegram_files. If you are using the same database, then use different collection name for each bot",
-            "value": "Anurag_files",
-            "required": false
+            
+            "required": false,
+            "value": "trumbotsfiles"
         }
     },
     "addons": [],
